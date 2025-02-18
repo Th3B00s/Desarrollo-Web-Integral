@@ -14,41 +14,26 @@
             <ul>
                 <li><a href="#galeria">Galería</a></li>
                 <li><a href="#descuento">Descuento</a></li>
-                <li><a href="#agotados">Agotados</a></li>
+                <li><a href="Agotado.html">Agotados</a></li>
+                <li><a href="#" id="logout">Cerrar sesión</a></li>
             </ul>
         </nav>
     </header>
 
-    <section id="galeria">
-        <h2>Galería</h2>
-        <div class="gallery">
+    <main>
+        <h2>Bienvenido, Admin</h2>
+        <p>¡Has iniciado sesión correctamente!</p>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Tu Empresa. Todos los derechos reservados.</p>
+    </footer>
+
+    <script>
+        document.getElementById("logout").addEventListener("click", () => {
             
-            <div class="gallery-item">
-                <img src="imagenes/imagejordan-travis.jfif" alt="Tenis 1">
-                <p>Zapatillas Jordan Travis Scott, ideales para estilo urbano.</p>
-            </div>
-            <div class="gallery-item">
-                <img src="imagenes/Adidas Spuerstar.jpg" alt="Tenis 2">
-                <p>Adidas Superstar, comodidad y estilo en cada paso.</p>
-            </div>
-            <div class="gallery-item">
-                <img src="imagenes/Jordan-mvp.jpg" alt="Tenis 3">
-                <p>Jordan MVP, diseño moderno y colores vibrantes.</p>
-            </div>
-            <div class="gallery-item">
-                <img src="imagenes/New-balance-574.jpg" alt="Tenis 4">
-                <p>New Balance 574, clásico y versátil para cualquier ocasión.</p>
-            </div>
-        </div>
-    </section>
-
-    <section id="descuento">
-        <h2>Descuento</h2>
-    </section>
-
-    <section id="agotados">
-        <h2>Agotados</h2>
-    </section>
-
+            window.location.href = "index.html";
+        });
+    </script>
 </body>
 </html>
